@@ -34,8 +34,9 @@ Also prints a static string to show direct output vs variable-based output.
 
 Variables are named clearly, making the code easy to understand and maintain — a good practice for collaborative environments.
 
+----------------------------------------------------------------------------------------------------
 
-## Lesson 4: Variables
+## Lesson 5: Variables Naming Rules
 Summary: How does company format their text strings.
 
 ### Name should be descriptive and meaningful
@@ -89,3 +90,73 @@ my_enrolled_training = "python"
 ### Camel Case - Each word except the first word starts with a capital letter
 
 myEnrolledTraining = "python"
+
+--------------------------------------------------------------------------
+
+# Lesson 6: Data Types
+--------------
+
+# Numeric - interger 10, Float 10.5, Complex 50j
+
+a = 10
+b = 15.5
+c = 50j
+
+print(type(c))
+
+# String - Testing Funda
+
+d = """ This is Python for 
+Automation testing
+
+By Testing Funda"""
+
+print(d)
+print(type(d))
+
+# Sequence: List, Tuple, Range
+## list
+list = [1,2,3,4,5]
+print(list)
+print(type(list))
+
+## tuple
+tuple = (1,2,3,4,5)
+
+print(tuple)
+print(type(tuple))
+
+## range
+range = range(1,6)
+
+print(range)
+print(type(range))
+
+# Mapping of data {"name": "Sumaya"} - Dict
+
+dict = {"name":"Testing Funda","Type":"Software testing Dataset"}
+
+print(dict)
+print(type(dict))
+
+# Boolean Data Type = True or False
+boolt = False
+
+print(boolt)
+print(type(boolt))
+
+# Set Data Type
+
+set = {1,2,3,4,5}
+print(set)
+print(type(set))
+
+# Set & Frozensset
+## Immutable & mutable
+### Mutable can be modified and changed. Immutable cannot be changed or edited.
+
+frozen = frozenset([1,2,3,4,5])
+print(frozen)
+print(type(frozen))
+
+
