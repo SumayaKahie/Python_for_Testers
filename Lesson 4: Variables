@@ -1,0 +1,9 @@
+x = 10;
+
+Institute = "Testing Funda";
+
+print(x)
+print(Institute)
+
+print("Testing Funda 1")
+print(10)
