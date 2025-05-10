@@ -33,3 +33,59 @@ Also prints a static string to show direct output vs variable-based output.
 ### Readability & Naming:
 
 Variables are named clearly, making the code easy to understand and maintain — a good practice for collaborative environments.
+
+
+## Lesson 4: Variables
+Summary: How does company format their text strings.
+
+### Name should be descriptive and meaningful
+
+total_price= 100;
+
+### Variable name must start with a letter or an underscore
+
+eggs = 5;
+_eggs = 10;
+
+### It should not be a number
+
+ 1eggs = 5;
+ 
+### Variable name should contain Alphanumeric charachters and underscores (A-Z, a-z, 0-9, and _)
+
+### Python is case sensitive
+
+eggs = 5
+EGGS = 5
+Eggs = 5
+
+### These will all return different variable associations
+
+### Creating different variables which are allowed
+
+mytraining = "python"
+my_training = "python"
+_mytraining ="python"
+_my_training = "python"
+myTraining = "python"
+MyTraining = "python"
+myTraining2 = "python"
+
+### What is not allowed though
+
+ my training = "python" 
+ 8myTraining = "python"
+
+### Cases
+
+### Pascal Case - Each word starts with a capital letter
+
+MyEnrolledTraining = "python" 
+
+### Snake Cse - Each word is seperated by an _ underscore
+
+my_enrolled_training = "python"
+
+### Camel Case - Each word except the first word starts with a capital letter
+
+myEnrolledTraining = "python"
