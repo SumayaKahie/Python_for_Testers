@@ -4,10 +4,7 @@
 📘 Lesson Summary
 In Python, variables are labels for data — whether it's numbers (integers) or text (strings). Good code starts with clear labels, tested outputs, and an understanding of how each piece fits together.
 
-### 🧪 Python Variable Testing – Code Sample
-python
-Copy
-Edit
+### 🧪 Python Variable Testing – Code 
 x = 10
 Institute = "Testing Funda"
 
