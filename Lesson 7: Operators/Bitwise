@@ -1,1 +1,9 @@
+a = 5
 
+print(a)
+
+print(bin(5))
+
+Answer 
+5
+0b101
