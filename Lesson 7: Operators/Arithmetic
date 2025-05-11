@@ -1,0 +1,54 @@
+#addiition
+
+a = 5
+b = 10
+Sum = a + b
+
+#substraction
+
+print(Sum)
+
+a = 50
+b = 10
+diff = a - b
+
+print(diff)
+
+#division
+
+a = 50
+b = 10
+mul = a * b
+
+print(mul)
+
+#Division
+
+a = 50
+b = 10
+div = a / b
+
+print(div)
+
+#Floor Division
+
+a = 50
+b = 9
+fdiv = a // b
+
+print(fdiv)
+
+#Modulus
+
+a = 50
+b = 9
+mod = a % b  # remainder
+
+print(mod)
+
+#Exponent 2 squared
+a = 2
+b = 3
+exp = a ** b
+
+print(exp)
