@@ -169,5 +169,6 @@ print(type(frozen))
  - Assignment operators: Used to assign value to variable
  - Membership operators: Used to test the membership in the sequence (string, tuples, list)
 
- - Arithmetic: Addition +, Subtraction -, Multiplication *, Division /, Floor Division //, Modulus %, 
+ - Arithmetic: Addition +, Subtraction -, Multiplication *, Division /, Floor Division //, Modulus %,
+ - Comparison: Equal ==, Not Equal !=, Greater >, Less <, Great or eq >=, Less or eq <=
 
