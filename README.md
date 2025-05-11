@@ -171,4 +171,5 @@ print(type(frozen))
 
  - Arithmetic: Addition +, Subtraction -, Multiplication *, Division /, Floor Division //, Modulus %,
  - Comparison: Equal ==, Not Equal !=, Greater >, Less <, Great or eq >=, Less or eq <=
+ - Logical: OR: Return True if any one of the statement is true, NOT reverse. result is true then itll return false, AND: will return TRUE if both statements are true
 
