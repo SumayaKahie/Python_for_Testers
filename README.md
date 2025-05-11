@@ -154,9 +154,18 @@ print(type(set))
 # Set & Frozensset
 ## Immutable & mutable
 ### Mutable can be modified and changed. Immutable cannot be changed or edited.
-
+ - 
 frozen = frozenset([1,2,3,4,5])
 print(frozen)
 print(type(frozen))
 
+
+# What are operators?
+ - Arithmetic operators: This is used to perform basic math like adding, subtracting
+ - Comparison operators: For this, I compare different values i.e Greater than Or equal to
+ - Logical operators: For this, it's used to combine conditional statements to return Boolean value ie, True or False
+ - Bitwiase operators: This one can be a little confusing. Used for data encyprtion but good to learn. It's used to perform bit by bit operations on binary numbers 0101 eg
+ - Identity operators: Compares the memory location of two objects
+ - Assignment operators: Used to assign value to variable
+ - Membership operators: Used to test the membership in the sequence (string, tuples, list)
 
