@@ -1,3 +1,4 @@
+Testing
 def add(a, b):
     return a + b
 
@@ -12,11 +13,14 @@ if result == 5:
 else:
     print("Correct Maya")
 
-Result
+# Result
+Testing add(2, 3)...
+Correct Maya
+
+### Test
 
 def add(a, b):
     return a + b
-
 
 from calculator import add
 print("Testing add(2, 3)...")
@@ -28,8 +32,8 @@ if result == 6:
 else:
     print("Uh Oh")
 
+### Result
 
 Testing add(2, 3)...
 Uh Oh
 
-Process finished with exit code 0
