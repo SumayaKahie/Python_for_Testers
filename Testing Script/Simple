@@ -1,1 +1,40 @@
+Testing
+def add(a, b):
+    return a + b
+
+
+from calculator import add
+print("Testing add(2, 3)...")
+result = add(2, 3)
+
+if result == 5:
+    print("Correct Maya")
+
+else:
+    print("Correct Maya")
+
+# Result
+Testing add(2, 3)...
+Correct Maya
+
+### Test
+
+def add(a, b):
+    return a + b
+
+from calculator import add
+print("Testing add(2, 3)...")
+result = add(2, 3)
+
+if result == 6:
+    print("Correct Maya")
+
+else:
+    print("Uh Oh")
+
+### Result
+
+Testing add(2, 3)...
+Uh Oh
+
 
