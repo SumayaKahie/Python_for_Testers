@@ -1,1 +1,39 @@
+# Equal
 
+a = 600
+b = 217
+c = 217
+
+print(a==b)
+print(a==c)
+print(c==b)
+
+#Not Equal
+
+print(a!=b)
+print(a!=c)
+print(c!=b)
+
+#Greater
+
+print(a>b)
+print(a>c)
+print(c>b)
+
+#Less
+
+print(a<b)
+print(a<c)
+print(c<b)
+
+#Greater or =
+
+print(a>=b)
+print(a>=c)
+print(c>=b)
+
+#Lesser or =
+
+print(a<=b)
+print(a<=c)
+print(c<=b)
