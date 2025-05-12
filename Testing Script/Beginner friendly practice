@@ -1,0 +1,56 @@
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+        return "Error: cannot divide by zero"
+    return a / b
+
+
+
+from calculator import add, subtract, multiply, divide
+
+# Test Add
+print("Testing add(17, 4...")
+print("Slay girl" if add(17, 4) == 21 else "You can't sit with us!")
+
+
+# Test Subtract
+print("Testing subtract(9, 1...")
+print("Correct answer" if subtract(9, 1) == 7 else "Try Again")
+
+
+# Test Multiply
+print("Testing Multiply(4, 3...")
+print("Good work kiddo" if multiply(4,3) == 12 else "Go back to school")
+
+
+# Test Divide
+print("Testing Divide(18, 3...")
+print("You're HIRED" if divide(18,3) == 6 else "You're FIRED")
+
+
+# Test Divide by Zero
+print("Testing divide(17, 0...")
+print("Smarty pants" if divide(17,0) =="Error: cannot divide by zero" else "Go home")
+
+
+
+#### RESULTS
+
+Testing add(17, 4...
+Slay girl
+Testing subtract(9, 1...
+Try Again
+Testing Multiply(4, 3...
+Good work kiddo
+Testing Divide(18, 3...
+You're HIRED
+Testing divide(17, 0...
+Go home
